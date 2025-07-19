@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   padding: 6rem;
   background-color: #1f2937;
 }
@@ -20,4 +19,16 @@ p {
   color: #d5d4d8;
   font-weight: 400;
   font-family: "Inter", sans-serif;
+}
+
+button {
+  margin-top: 40px;
+  border-radius: 4px;
+  padding: 8px 8px 8px 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background-color: #10b981;
+  color: white;
+  border: 0;
+  cursor: pointer;
 }

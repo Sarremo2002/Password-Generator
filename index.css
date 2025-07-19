@@ -44,6 +44,7 @@ hr {
 .password-container {
   display: flex;
   gap: 0.8rem;
+  color: #55f991;
 }
 
 .password-field {
@@ -52,7 +53,6 @@ hr {
   border-radius: 4px;
 }
 .password-field p {
-  color: #55f991;
   font-family: "Inter", sans-serif;
   font-weight: 400px;
 }

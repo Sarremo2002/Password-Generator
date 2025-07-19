@@ -91,3 +91,17 @@ const characters = [
   "?",
   "/",
 ];
+
+//let example = characters[Math.floor(Math.random() * characters.length)];
+//console.log(example);
+let passwordEL1 = document.getElementById("password-el1");
+let passwordEL2 = document.getElementById("password-el2");
+function Generate() {
+  let empty = " ";
+  for (let i = 0; i < 15; i++) {
+    let randomIndex = Math.floor(Math.random() * characters.length);
+    empty += characters[randomIndex];
+  }
+  passwordEL1.textContent = empty;
+  passwordEL2.textContent = empty;
+}

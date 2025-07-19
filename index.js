@@ -97,11 +97,14 @@ const characters = [
 let passwordEL1 = document.getElementById("password-el1");
 let passwordEL2 = document.getElementById("password-el2");
 function Generate() {
-  let empty = " ";
+  let empty1 = " ";
+  let empty2 = " ";
   for (let i = 0; i < 15; i++) {
-    let randomIndex = Math.floor(Math.random() * characters.length);
-    empty += characters[randomIndex];
+    let randomIndex1 = Math.floor(Math.random() * characters.length);
+    let randomIndex2 = Math.floor(Math.random() * characters.length);
+    empty1 += characters[randomIndex1];
+    empty2 += characters[randomIndex2];
   }
-  passwordEL1.textContent = empty;
-  passwordEL2.textContent = empty;
+  passwordEL1.textContent = empty1;
+  passwordEL2.textContent = empty2;
 }

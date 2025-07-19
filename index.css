@@ -40,3 +40,19 @@ hr {
   margin: 2rem 0;
   width: 100%;
 }
+
+.password-container {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.password-field {
+  background-color: #273549;
+  padding: 0.6rem 4rem;
+  border-radius: 5px;
+}
+.password-field p {
+  color: #55f991;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}

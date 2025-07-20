@@ -38,7 +38,6 @@ hr {
   height: 1px;
   background-color: #2f3e53;
   margin: 2rem 0;
-  width: 100%;
 }
 
 .password-container {
@@ -54,5 +53,40 @@ hr {
 }
 .password-field p {
   font-family: "Inter", sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .password-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .password-field {
+    padding: 0.68rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 2.5rem;
+    text-align: center;
+  }
+
+  .password-container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .password-field {
+    padding: 0.68rem 2rem;
+  }
 }
